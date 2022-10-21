@@ -1,38 +1,9 @@
-# create-svelte
+Steps to run the project:
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+1- Clone the repository on your local machine
+2- Run the command `npm install` to install all the dependencies
+3- Run the command `npm run dev` to start the server
+4- The server will be running on port 5173 (might change so check your terminal for the port number)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+link to the backend repository (steps to run the frontend are in the readme file of the frontend repository):
+https://github.com/TheYMK/dashboard-backend
