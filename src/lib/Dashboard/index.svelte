@@ -10,10 +10,11 @@
   import { onMount } from "svelte";
 	import { api } from "../../api/Api";
 	import { notificationCenter } from "../../config/notification";
+	import Overview from './Overview.svelte';
 
 
   $: if($userStore && $userStore.role === 'user') {
-      navigationStore.set({active: "allDevices"})
+      navigationStore.set({active: "overview"})
   } else if($userStore && $userStore.role === 'admin') {
       navigationStore.set({active: "allUsers"})
   } else if($userStore && $userStore.role === 'superadmin') {
@@ -21,9 +22,12 @@
   }
 </script>
 
-<div class="flex flex-row">
+<div class="flex flex-col md:flex-row">
   <Menu />
-  <div class="ml-10 mt-14 w-full px-2">
+  <div class="md:ml-10 md:mt-14 mt-10 w-full px-2">
+    {#if $navigationStore && $navigationStore.active === 'overview'}
+       <Overview />
+    {/if}
     {#if $navigationStore && $navigationStore.active === 'allDevices'}
        <AllDevices />
     {/if}

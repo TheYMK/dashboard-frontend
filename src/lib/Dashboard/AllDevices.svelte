@@ -110,7 +110,7 @@
   <button class="btn btn-primary mb-8" on:click={openModal}>Add a device</button>
   <h2 class="font-bold text-xl">All device markers</h2>
   <div class="mt-4 w-full">
-    <div class="overflow-x-auto">
+    <div class="overflow-x-scroll">
       <table class="table table-zebra w-full">
         <!-- head -->
         <thead>

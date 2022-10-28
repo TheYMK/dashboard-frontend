@@ -16,9 +16,9 @@
 
 <div class="navbar bg-base-100 shadow-lg">
   <div class="flex-1">
-    <a href="/" class="btn btn-ghost normal-case text-xl">Dashboard by Kaym Kassai</a>
+    <a href="/" class="btn btn-ghost normal-case text-sm md:text-xl">Dashboard by Kaym Kassai</a>
   </div>
-  <div class="flex-none">
+  <div class="flex-none hidden md:block">
     <ul class="menu menu-horizontal p-0">
       <li><a href="/">Dashboard</a></li>
       <li><a href="/map">Map</a></li>
