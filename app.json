@@ -12,13 +12,9 @@
 			"description": "Environment [production/development]",
 			"value": "production"
 		},
-		"PROD_DATABASE_URL": {
-			"description": "Production database url",
-			"value": "postgres://kaymkassai:kaymkassai@localhost:5432/dashboardproddb"
-		},
-		"DEV_DATABASE_URL": {
-			"description": "Dev database url",
-			"value": "postgres://kaymkassai:kaymkassai@localhost:5432/dashboarddevdb"
+		"VITE_API_URL": {
+			"description": "API URL",
+			"value": "https://dashboard-by-kaym-kassai-api.herokuapp.com/v1/api"
 		}
 	},
 	"formation": {
