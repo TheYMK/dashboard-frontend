@@ -9,6 +9,10 @@ link to the backend repository (steps to run the backend are in the readme file 
 https://github.com/TheYMK/dashboard-backend
 
 <br/>
+Deployed frontend application link: https://dashboard-frontend-two.vercel.app (Some requests are failing, I'm currently working on resolving them) <br/>
+Deployed backend api link: https://dashboard-by-kaym-kassai-api.herokuapp.com <br/>
+
+<br/>
 <br/>
 
 DEMO (Test de positionnement): <br/>
