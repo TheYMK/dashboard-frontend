@@ -10,7 +10,7 @@
 	"env": {
 		"NODE_ENV": {
 			"description": "Environment [production/development]",
-			"value": "production"
+			"value": "development"
 		},
 		"VITE_API_URL": {
 			"description": "API URL",
