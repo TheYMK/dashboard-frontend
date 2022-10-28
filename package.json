@@ -7,10 +7,12 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --plugin-search-dir . --check .",
+		"start": "node build/index.js",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-node": "^1.0.0-next.99",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.12",
 		"postcss": "^8.4.18",
